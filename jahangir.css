@@ -1,0 +1,83 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Poppins:wght@200&display=swap');
+
+  body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: inter ;
+    color: #333; 
+}
+
+.abt {
+    background-color: #FF4029;
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.abt h1{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bolder;
+    display: flex;
+    justify-content: center;
+}
+main {
+    padding: 20px;
+}
+
+.about-section {
+    background: url(Assets/kfclogo.png), lightgray 50%; 
+    margin-top: 60px;
+    display: flex;
+    padding: 20px;
+    border-radius: 5px;
+    height: 300px;
+}
+
+.about-section p{
+    margin-top: 25px;
+    width: 750px;
+    font-size:26px;
+}
+.red{
+    margin-top: 48px;
+    margin-left: 80px;
+width: 450px;
+height: 150px;
+background-color: #FF4029;
+float: right;
+border-radius: 30px;
+}
+.red p{
+    
+    font-weight: bolder;
+    margin-top: 30px;
+    font-size: 19px;
+    font-family: poppins;
+    width:450px ;
+    color: white;
+    text-align: center;
+}
+footer {
+    background-color: #FF4029;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+.history-section {
+    margin-top: 60px;
+    display: flex;
+    background-color: #F8E7DD;
+    padding: 20px;
+    border-radius: 5px;
+    height: 300px;
+}
+.history-section p{
+    margin-top: 25px;
+    width: 750px;
+    font-size:26px;
+}
